@@ -1,0 +1,23 @@
+
+---
+
+### **2. 23_APIScopeScanner**  
+**Description:**  
+Monitors a set of APIs for availability, response codes, and latency spikes over time.
+
+#### **README.md**
+```markdown
+# APIScopeScanner - Batch Endpoint Health Tracker
+
+APIScopeScanner lets you track the health of APIs across projects or infrastructure with real-time reports.
+
+## Features
+- Logs status + latency  
+- Retry support  
+- Export logs to JSON  
+
+## Usage
+```bash
+git clone https://github.com/your-username/23_APIScopeScanner.git
+cd 23_APIScopeScanner
+python monitor.py
