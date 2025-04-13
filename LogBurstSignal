@@ -1,0 +1,23 @@
+
+---
+
+### **3. 23_LogBurstSignal**  
+**Description:**  
+Detects repeating log entries, error surges, and frequency-based bursts in logs.
+
+#### **README.md**
+```markdown
+# LogBurstSignal - Log Spike & Pattern Analyzer
+
+LogBurstSignal identifies repeated messages, warning surges, and patterns that can indicate performance issues.
+
+## Features
+- Frequency-based log clustering  
+- Burst analysis by timestamp  
+- Custom keyword detection  
+
+## Usage
+```bash
+git clone https://github.com/your-username/23_LogBurstSignal.git
+cd 23_LogBurstSignal
+python analyze.py
